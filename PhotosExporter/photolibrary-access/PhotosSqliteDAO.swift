@@ -81,6 +81,7 @@ class PhotosSqliteDAO {
     }
     
     func readKeywords() throws -> [String:[String]] {
+        return [:]
 
         let stmt = try prepareStatement(sql:
             """

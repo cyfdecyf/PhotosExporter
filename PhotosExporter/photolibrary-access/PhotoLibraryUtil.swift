@@ -23,7 +23,8 @@ class PhotoLibraryUtil {
             return systemPhotosLibraryPath;
         }
         
-        systemPhotosLibraryPath = getSystemPhotosLibraryPathInternal()
+//        systemPhotosLibraryPath = getSystemPhotosLibraryPathInternal()
+        systemPhotosLibraryPath = "/Users/cyf/Pictures/Photos Library.photoslibrary"
         
         if systemPhotosLibraryPath == nil {
             throw PhotoLibraryError.systemLibraryPathNotDefined
